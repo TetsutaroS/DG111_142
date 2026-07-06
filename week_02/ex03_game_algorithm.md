@@ -40,7 +40,7 @@ A --> End([End])
 P -->|no| B[/เลื่อน enemy ตาม dir /]
 B --> C{ถึงจุด B}
 C -->|yes| D[dir = กลับไป A]
-D -->|no| P
+D --> P
 C -->|no| E{ถึงจุด A}
 E -->|yes| F[dir = ไปหน้า B]
 E -->|no| P
